@@ -1,0 +1,17 @@
+{
+  "email": {
+    "sender": {
+      "pool": true,
+      "host": "smtp.gmail.com",
+      "port": 25,
+      "auth": {
+        "user": "foo@gmail.com",
+        "pass": "foo"
+      }
+    },
+    "receiver": "vioao91@gamil.com"
+  },
+  "security": {
+    "whitelist": "127.0.0.1,localhost"
+  }
+}
