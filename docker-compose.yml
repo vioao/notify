@@ -1,0 +1,12 @@
+version: '3'
+services:
+  notify:
+    restart: always
+    container_name: vioao_notify
+    image: vioao/notify:0.0.1
+    environment:
+      - configfile=/etc/notify/config.json
+    ports:
+      - 4000:3000
+    volumes:
+      - /etc/notify:/etc/notify
