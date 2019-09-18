@@ -9,7 +9,7 @@
         "pass": "foo"
       }
     },
-    "receiver": "vioao91@gamil.com"
+    "receiver": "foo@gamil.com"
   },
   "security": {
     "whitelist": "127.0.0.1,localhost"
