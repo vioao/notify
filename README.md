@@ -3,7 +3,7 @@ Notify API service, supports below:
 - send email notify(type=email)
 
 ### Usage:
-docker run -p 3000:3000 -d -e configfile=/path/to /configfile vioao/notify
+docker run -p 3000:3000 -d -e configfile=/path/to/configfile vioao/notify
 
 ### Config
 ```
